@@ -7,5 +7,5 @@ https://www.kaggle.com/datasets/kmader/food41
 
 ```sh
 bun i
-bun run src/index.ts
+bun run src/index.tsx
 ```
