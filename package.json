@@ -1,0 +1,27 @@
+{
+  "name": "food-elo-rating",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "eslint": "^8.57.0",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "typed-html": "^3.0.1",
+    "typescript": "^5.4.2"
+  },
+  "type": "module",
+  "dependencies": {
+    "@elysiajs/html": "^1.0.2",
+    "@langchain/openai": "^0.0.22",
+    "bun-types": "^1.0.35",
+    "elysia": "^1.0.9"
+  },
+  "scripts": {
+    "start": "bun run src/index.tsx",
+    "dev": "bun run --watch src/index.tsx",
+    "lint": "eslint . --ext .ts,.tsx"
+  }
+}

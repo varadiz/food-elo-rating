@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleDetection": "force",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "Node",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "composite": true,
+    "jsxFactory": "elements.createElement",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    },
+    "types": [
+      "bun-types"
+    ]
+  },
+  "include": [
+    "src/**/*",
+    "types.d.ts"
+  ],
+}
